@@ -1,2 +1,2 @@
 # kkntematikusk22.github.io
-Website Cocid-19 Checker
+Website Covid-19 Checker
