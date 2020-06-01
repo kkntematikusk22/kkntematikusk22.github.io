@@ -12,79 +12,79 @@ let sum = 0,
 	percents = 0;
 
 let questions = [{
-		q: 'Have you experienced symptoms of fever within 14 days?',
+		q: 'Pernahkah Anda mengalami gejala demam dalam 14 hari?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of acute respiratory distress?',
+		q: 'Apakah Anda mengalami gejala gangguan pernapasan akut?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing dry cough symptoms?',
+		q: 'Apakah Anda mengalami gejala batuk kering?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of cough with phlegm?',
+		q: 'Apakah Anda mengalami gejala batuk berdahak?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of excessive fatigue?',
+		q: 'Apakah Anda mengalami gejala kelelahan yang berlebihan?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of shortness of breath?',
+		q: 'Apakah Anda mengalami gejala sesak napas?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of muscle pain or joint pain?',
+		q: 'Apakah Anda mengalami gejala nyeri otot atau nyeri sendi?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of a sore throat?',
+		q: 'Apakah anda mengalami gejala sakit tenggorokan?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of a headache?',
+		q: 'Apakah Anda mengalami gejala sakit kepala?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing shivering symptoms?',
+		q: 'Apakah Anda mengalami gejala menggigil?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of nausea or vomiting?',
+		q: 'Apakah Anda mengalami gejala mual atau muntah?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of nasal congestion?',
+		q: 'Apakah Anda mengalami gejala hidung tersumbat?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
 	},
 	{
-		q: 'Are you experiencing symptoms of diarrhea?',
+		q: 'Apakah Anda mengalami gejala diare?',
 		options: ['No', 'Yes'],
 		answer: 1,
 		percentage: 100
@@ -108,10 +108,10 @@ function load() {
 
 		if (percents >= 50) {
 			alert.className += ' alert-danger';
-			recommendation.innerHTML = 'Stay Calm, Call the nearest hospital to come pick you up and take care of you. Remember not to go anywhere and made physical contact with anyone, may you get better soon, God Bless You.';
+			recommendation.innerHTML = 'Tetap Tenang, Hubungi rumah sakit terdekat untuk datang menjemput Anda dan merawat Anda. Ingatlah untuk tidak pergi ke mana pun dan melakukan kontak fisik dengan siapa pun, semoga Anda segera sembuh.';
 		} else {
 			alert.className += ' alert-success';
-			recommendation.innerHTML = 'Stay healthy, dont go anywhere for a while, stay in your house. Go out only when neccesary, God Bless You.';
+			recommendation.innerHTML = 'Jaga kesehatan, jangan pergi ke mana pun untuk sementara,tetap berada di rumah Anda. Pergilah hanya saat ada keperluan yang dibutuhkan.';
 		}
 
 		result.style.display = '';
