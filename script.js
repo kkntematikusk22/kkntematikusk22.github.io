@@ -13,79 +13,79 @@ let sum = 0,
 
 let questions = [{
 		q: 'Pernahkah Anda mengalami gejala demam dalam 14 hari?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Pernah'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala gangguan pernapasan akut?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala batuk kering?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala batuk berdahak?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala kelelahan yang berlebihan?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala sesak napas?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala nyeri otot atau nyeri sendi?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah anda mengalami gejala sakit tenggorokan?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala sakit kepala?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala menggigil?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala mual atau muntah?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala hidung tersumbat?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
 	{
 		q: 'Apakah Anda mengalami gejala diare?',
-		options: ['No', 'Yes'],
+		options: ['Tidak', 'Iya'],
 		answer: 1,
 		percentage: 100
 	},
